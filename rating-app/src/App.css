@@ -13,6 +13,7 @@ body {
   border-radius: 40px;
   width: 340px;
   height: 350px;
+  margin-bottom: 20px;
   
 }
 
@@ -44,6 +45,7 @@ body {
   font-size: 16px;
   border: none;
   background-color: rgb(222, 155, 29);
+  margin-bottom: 20px;
 }
 .submit-btn:hover{
   
@@ -65,6 +67,18 @@ body {
   height: 340px;
   text-align: center;
 }
+.icon{
+display: flex;
+align-items: start;
+justify-content:baseline ;
+gap: 4px;
+font-size: 15px;
+ 
+}
+.icon .back-icon{
+  font-size: 20px;
+}
+
 .thank-para{
   
   border-radius: 10px;
@@ -74,4 +88,57 @@ body {
 }
 img{
   margin-bottom: 25px;
+}
+
+.attribution{
+  margin-top: 10px;
+}
+.attribution > span{
+  color: chartreuse;
+}
+
+@media screen and (max-width: 400px) {
+  .rating-section{
+  padding: 25px;
+  background-color: #1e242e;
+  border-radius: 40px;
+  width: 300px;
+  height: 350px;
+  margin-bottom: 20px;
+
+  .rate-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 20px;
+}
+  .btn{
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #282e38;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+.submit-btn{
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(222, 155, 29);
+  margin-bottom: 10px;
+}
+.submit-btn:hover{
+  
+  color: rgb(222, 155, 29);
+  background-color: white;
+}
+.btn:hover{
+  background-color: rgb(182, 181, 180);
+}
+.btn:focus{
+  background-color: rgb(222, 155, 29);
+}
+}
 }
